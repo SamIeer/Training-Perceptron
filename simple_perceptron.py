@@ -11,3 +11,8 @@ print(perceptron(0,0,1,1,-1.5))   # Expected: 0
 print(perceptron(0,1,1,1,-1.5))   # Expected: 0
 print(perceptron(1,0,1,1,-1.5))   # Excpeted: 0
 print(perceptron(1,1,1,1,-1.5))   # Excpeted: 1
+
+#Summary
+# A perceptron is the simplest form of a neural network.
+# It performs a weighted sum of inputs, adds a bias, and passes the result through an activation function to make a decision.
+# It can model simple binary functions like AND, OR, etc. 
